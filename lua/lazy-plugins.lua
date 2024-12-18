@@ -38,8 +38,8 @@ require('lazy').setup({
 
   require 'kickstart.plugins.todo-comments',
 
-  { -- Collection of various small independent plugins/modules
-    'echasnovski/mini.nvim',
+  require 'kickstart.plugins.mini',
+
     config = function()
       -- Better Around/Inside textobjects
       --
