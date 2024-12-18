@@ -34,6 +34,8 @@ require('lazy').setup({
 
   require 'kickstart.plugins.autocompletion',
 
+  require 'kickstart.plugins.autopairs',
+
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
