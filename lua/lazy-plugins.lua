@@ -32,7 +32,7 @@ require('lazy').setup({
 
   require 'kickstart.plugins.conform',
 
-  require 'kickstart.plugins.autocompletion',
+  require 'kickstart.plugins.nvim-cmp',
 
   require 'kickstart.plugins.autopairs',
 
